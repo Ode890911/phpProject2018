@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="4" ignored="0" total="5" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="274350" started-at="2018-12-02T19:37:26Z" finished-at="2018-12-02T19:42:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="274350" started-at="2018-12-02T19:37:26Z" finished-at="2018-12-02T19:42:00Z">
+      <class name="tests.PhPSignUpTest">
+        <test-method status="PASS" signature="beforeAllTestStart()[pri:0, instance:tests.PhPSignUpTest@67784306]" name="beforeAllTestStart" is-config="true" duration-ms="28" started-at="2018-12-02T19:37:26Z" finished-at="2018-12-02T19:37:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeAllTestStart -->
+        <test-method status="PASS" signature="beforeEachTestStart()[pri:0, instance:tests.PhPSignUpTest@67784306]" name="beforeEachTestStart" is-config="true" duration-ms="57744" started-at="2018-12-02T19:37:26Z" finished-at="2018-12-02T19:38:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestStart -->
+        <test-method status="FAIL" signature="loginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.PhPSignUpTest@67784306]" name="loginTest" duration-ms="36627" started-at="2018-12-02T19:38:24Z" data-provider="Sign Up" finished-at="2018-12-02T19:39:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Iknoqw]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[righgt]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1456336]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[asdfgh]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[asdfgh]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The Email field is required. Account not created-Invalid Credentiels! expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The Email field is required. Account not created-Invalid Credentiels! expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at tests.PhPSignUpTest.loginTest(PhPSignUpTest.java:90)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="afterEachTestComplete(org.testng.ITestResult)[pri:0, instance:tests.PhPSignUpTest@67784306]" name="afterEachTestComplete" is-config="true" duration-ms="7346" started-at="2018-12-02T19:39:00Z" finished-at="2018-12-02T19:39:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=FAILURE method=PhPSignUpTest.loginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.PhPSignUpTest@67784306] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestComplete -->
+        <test-method status="PASS" signature="beforeEachTestStart()[pri:0, instance:tests.PhPSignUpTest@67784306]" name="beforeEachTestStart" is-config="true" duration-ms="14467" started-at="2018-12-02T19:39:08Z" finished-at="2018-12-02T19:39:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestStart -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.PhPSignUpTest@67784306]" name="loginTest" duration-ms="34962" started-at="2018-12-02T19:39:22Z" data-provider="Sign Up" finished-at="2018-12-02T19:39:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[year]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[weorot]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1223444455]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[wqor@qwe.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[qwerty]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[qwerty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="afterEachTestComplete(org.testng.ITestResult)[pri:0, instance:tests.PhPSignUpTest@67784306]" name="afterEachTestComplete" is-config="true" duration-ms="5086" started-at="2018-12-02T19:39:57Z" finished-at="2018-12-02T19:40:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=PhPSignUpTest.loginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.PhPSignUpTest@67784306] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestComplete -->
+        <test-method status="PASS" signature="beforeEachTestStart()[pri:0, instance:tests.PhPSignUpTest@67784306]" name="beforeEachTestStart" is-config="true" duration-ms="12298" started-at="2018-12-02T19:40:02Z" finished-at="2018-12-02T19:40:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestStart -->
+        <test-method status="FAIL" signature="loginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.PhPSignUpTest@67784306]" name="loginTest" duration-ms="24560" started-at="2018-12-02T19:40:15Z" data-provider="Sign Up" finished-at="2018-12-02T19:40:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ aaron213]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[meand]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[aaron123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[aaron123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[aaron123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The Email field must contain a valid email address. Account not created-Invalid Credentiels! expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The Email field must contain a valid email address. Account not created-Invalid Credentiels! expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at tests.PhPSignUpTest.loginTest(PhPSignUpTest.java:90)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="afterEachTestComplete(org.testng.ITestResult)[pri:0, instance:tests.PhPSignUpTest@67784306]" name="afterEachTestComplete" is-config="true" duration-ms="6704" started-at="2018-12-02T19:40:39Z" finished-at="2018-12-02T19:40:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=FAILURE method=PhPSignUpTest.loginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.PhPSignUpTest@67784306] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestComplete -->
+        <test-method status="PASS" signature="beforeEachTestStart()[pri:0, instance:tests.PhPSignUpTest@67784306]" name="beforeEachTestStart" is-config="true" duration-ms="6242" started-at="2018-12-02T19:40:46Z" finished-at="2018-12-02T19:40:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestStart -->
+        <test-method status="FAIL" signature="loginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.PhPSignUpTest@67784306]" name="loginTest" duration-ms="25898" started-at="2018-12-02T19:40:52Z" data-provider="Sign Up" finished-at="2018-12-02T19:41:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[meg]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[125akso]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[124378951433]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[meg@you.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[en123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[en123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The Password field must be at least 6 characters in length. Account not created-Invalid Credentiels! expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The Password field must be at least 6 characters in length. Account not created-Invalid Credentiels! expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at tests.PhPSignUpTest.loginTest(PhPSignUpTest.java:90)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="afterEachTestComplete(org.testng.ITestResult)[pri:0, instance:tests.PhPSignUpTest@67784306]" name="afterEachTestComplete" is-config="true" duration-ms="5551" started-at="2018-12-02T19:41:18Z" finished-at="2018-12-02T19:41:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=FAILURE method=PhPSignUpTest.loginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.PhPSignUpTest@67784306] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestComplete -->
+        <test-method status="PASS" signature="beforeEachTestStart()[pri:0, instance:tests.PhPSignUpTest@67784306]" name="beforeEachTestStart" is-config="true" duration-ms="8701" started-at="2018-12-02T19:41:24Z" finished-at="2018-12-02T19:41:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestStart -->
+        <test-method status="FAIL" signature="loginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.PhPSignUpTest@67784306]" name="loginTest" duration-ms="19929" started-at="2018-12-02T19:41:32Z" data-provider="Sign Up" finished-at="2018-12-02T19:41:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[_wakll]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ask54]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1246313456]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123@you.net]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[qwoqwo]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[qwaqwo]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Password not matching with confirm password. Account not created-Invalid Credentiels! expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Password not matching with confirm password. Account not created-Invalid Credentiels! expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at tests.PhPSignUpTest.loginTest(PhPSignUpTest.java:90)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="afterEachTestComplete(org.testng.ITestResult)[pri:0, instance:tests.PhPSignUpTest@67784306]" name="afterEachTestComplete" is-config="true" duration-ms="5422" started-at="2018-12-02T19:41:52Z" finished-at="2018-12-02T19:41:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=FAILURE method=PhPSignUpTest.loginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.PhPSignUpTest@67784306] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestComplete -->
+        <test-method status="PASS" signature="afterAllTestsComplete()[pri:0, instance:tests.PhPSignUpTest@67784306]" name="afterAllTestsComplete" is-config="true" duration-ms="2368" started-at="2018-12-02T19:41:58Z" finished-at="2018-12-02T19:42:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterAllTestsComplete -->
+      </class> <!-- tests.PhPSignUpTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
