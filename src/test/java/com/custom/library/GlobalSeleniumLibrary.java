@@ -71,7 +71,7 @@ public class GlobalSeleniumLibrary {
 			driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 			driver.manage().window().maximize();
 		} catch (Exception e) {
-			logger.error("Error- ", e);
+			logger.error("Browser not found", e);
 			assertTrue(false);
 		}
 		return driver;
